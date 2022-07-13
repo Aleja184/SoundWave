@@ -29,7 +29,9 @@ ul,ol{
 }
 .nav li{
     border-left: 2px solid black;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
 }
+
 .nav > li{
     float: left;
 }
@@ -42,6 +44,7 @@ ul,ol{
     width: 125px;
     height: 50px;
     font-size: 18px;
+    
 }
 .nav li a:hover{
     background-color: #95CBD7;
@@ -56,8 +59,13 @@ ul,ol{
 }
 .nav li ul li{
     position: relative;
+    box-shadow: none;
 }
-.nav li ul li ul{
-    right: -140px;
-    top: 0px;
+.nav li ul{
+    right: -10px;
+    top: 50px;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
