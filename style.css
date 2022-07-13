@@ -66,6 +66,10 @@ ul,ol{
     right: -10px;
     top: 50px;
 }
+.nav li ul li a{
+    height: 50px;
+    font-size: 15px;
+}
 .principal{
     display: grid;
     grid-template-columns: 60% 40%;
